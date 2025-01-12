@@ -7,7 +7,7 @@ const initialPortfolios = [
   { id: 3, name: "Graphic Design Projects" },
 ];
 
-export default function Dashboard() {
+ function Dashboard() {
   const [portfolios, setPortfolios] = useState(initialPortfolios);
   const [newPortfolioName, setNewPortfolioName] = useState('');
 
@@ -83,3 +83,4 @@ export default function Dashboard() {
   );
 }
 
+export default Dashboard;
