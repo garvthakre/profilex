@@ -13,7 +13,7 @@ function HeroSection() {
             </button>
           </div>
         </div>
-      </section>
+      </section> 
     )
   }
   
